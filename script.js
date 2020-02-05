@@ -23,9 +23,6 @@ fetch("config.json")
             const update = (event) => {
                 let owlLeft = owl.offsetLeft;
                 let owlTop = owl.offsetTop;
-                console.log(typeof owl.offsetLeft);
-
-                console.log(`owleft${owl.offsetLeft} mapw${mapSize.width}`)
 
                 switch (event.key) {
                     case "ArrowLeft":
