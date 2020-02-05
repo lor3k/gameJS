@@ -1,0 +1,39 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  padding: 5%;
+  box-sizing: border-box;
+  background-color: bisque;
+}
+
+#app {
+  height: 400px;
+  width: 800px;
+  border: 1px solid red;
+  position: absolute;
+  background-color: khaki;
+}
+
+.tree,
+.owl {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  background-size: cover;
+  top: 30px;
+}
+
+.tree {
+  left: 0;
+  background-image: url(https://raw.githubusercontent.com/lor3k/owl-game/master/img/tree.png);
+}
+
+.owl {
+  right: 0;
+  background-image: url(https://raw.githubusercontent.com/lor3k/owl-game/master/img/owl.png);
+}
