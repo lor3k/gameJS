@@ -46,7 +46,7 @@ fetch("config.json")
                         break;
                 }
 
-                if (owlLeft <= 0) {
+                if (owlLeft < 0) {
                     owl.style.left = '0px';
                     return;
                 }
